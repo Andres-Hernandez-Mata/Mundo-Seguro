@@ -1,0 +1,9 @@
+<html> 
+    <body> 
+        <title>Aquí están tus mensajes</title> 
+            {% for msj in mensajes %} 
+                <h1 class={{msj}}>{{ msj }}!</h1> 
+                <a href="{{msj}}">&#128147;</a> 
+            {% endfor %}
+    </body> 
+</html>
